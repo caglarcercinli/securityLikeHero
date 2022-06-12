@@ -1,5 +1,7 @@
 database needed to be runned every time (before launch)
+
 a database example:
+
     set names utf8mb4;
     set charset utf8mb4;
     drop database if exists users;
