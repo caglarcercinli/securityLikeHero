@@ -1,15 +1,15 @@
 package com.caglar.demo.services;
 
 import com.caglar.demo.models.Role;
-import com.caglar.demo.models.UserU;
+import com.caglar.demo.models.User;
 
 import java.util.List;
 
 public interface UserService {
 
-    UserU save(UserU userU);
+    User save(User user);
     Role save(Role role);
     void addRoleTo(String username, String role);
-    UserU get(String username);
-    List<UserU> list();
+    User get(String username);
+    List<User> list();
 }

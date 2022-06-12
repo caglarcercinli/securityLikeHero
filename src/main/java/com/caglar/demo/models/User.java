@@ -13,7 +13,7 @@ import java.util.Set;
 @NoArgsConstructor
 @Builder
 @Data
-public class UserU {
+public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
